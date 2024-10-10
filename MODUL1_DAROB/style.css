@@ -1,0 +1,200 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    min-height: 2800px;
+}
+
+.wrapper1 {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #000f7f;
+    text-decoration: none;
+}
+
+.menu{
+    float: right;
+    font-family:  'Madimi One', sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;s
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom:2px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+} 
+
+nav ul li a {
+    color: #535C91;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+} 
+
+ nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+/* Profile */
+
+.hero {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+   background-image: url(Toko\ Roti.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+  }
+
+   .content{
+    margin-top: 100px;
+  }
+
+  .foto{
+    margin-top: 100px;
+  }
+
+  .hero::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(1, 1, 3, 1) 8%,
+      rgba(255, 255, 255, 0) 50%
+    );
+  }
+
+  .hero .content {
+    padding: 100px;
+    max-width: 60rem;
+  }
+  
+  .hero .content h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    line-height: 1.2;
+    
+  }
+
+  
+  .hero .content h1 span {
+    color: rgb(255, 251, 0);
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+  }
+  
+  .hero .content p {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    line-height: 1.4;
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    mix-blend-mode: difference;
+    color: #ffffff;
+  }
+
+  /* Skills */
+
+   /* .all{
+    height: 100vh;
+  }
+  
+  .hero1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content1 {
+    padding-top: 100px;
+  }
+  
+  .text {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    line-height: 1.2;
+  }
+ */
+
+  /* .hero1 .content1 p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    mix-blend-mode: difference;
+    color: #ffffff;
+  } */
+
+
+   .image{
+    display: flex;
+    justify-content: space-evenly;
+  }  */
+
+  .img-project{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  project
+
+
+  /* sosial media */
+
+  /.img-Sosial{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .content2{
+    margin-top: 100px;
+  } 
